@@ -1,7 +1,6 @@
 import Navabar from "../components/nav.js";
 document.getElementById('navabar').innerHTML=Navabar()
 
- Navbar
 const userdata = (e) => {
   e.preventDefault();
   let user = {
