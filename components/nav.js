@@ -10,8 +10,8 @@ const Navabar=()=>{
             </ul>
           </nav>
           <div class="btns">
-            <button><a href="#">login</a></button>
-            <button><a href="#">signup</a></button>
+            <button><a href="/pages/login.html">login</a></button>
+            <button><a href="/pages/signup.html">signup</a></button>
           </div>
         </div>
     </div>

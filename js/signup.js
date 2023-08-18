@@ -1,5 +1,5 @@
-import Navabar from "./nav.js";
-document.getElementById('navbar').innerHTML=Navabar()
+import Navabar from "../components/nav.js";
+document.getElementById('navabar').innerHTML=Navabar()
 
  Navbar
 const userdata = (e) => {
