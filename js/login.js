@@ -11,6 +11,7 @@ const login=(e)=>{
     .then((data) => {
       if (data.length > 0){
         if(data[0].password === password){
+          localStorage.setItem("loggedIn",true)
             alert("login success")
         }
         else{

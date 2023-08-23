@@ -18,12 +18,29 @@ const display=(data)=>{
         rating.innerHTML=6;
         if(product.rating.rate > 4){
             rating.style.color="green"
+            
         }
         else{
             rating.style.color="red"
         }
         let btn=document.createElement('button');
         btn.innerHTML="BUY NOW"
+        btn.addEventListener("click",()=>{
+        let loggedIn=localStorage.getItem("loggedIn");
+        if(loggedIn){
+            fetch("http://localhost:3000/cart", {
+            method: "POST",
+            headers: { "content-type": "application/product"},
+            body: JSON.stringify(user),
+          });
+        }
+        else{
+            alert("you have to login first")
+            setTimeout(()=>{
+                window.location.href='/pages/login.html'
+            },1000)
+        }
+        })
         let div=document.createElement('div');
         div.append(img,title,price,category,rating,btn)
         console.log(div);
