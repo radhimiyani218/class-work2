@@ -1,4 +1,4 @@
-.img-box img{
+/* .img-box img{
     width: 60%;
 
 }
@@ -45,4 +45,114 @@ button{
 }
 button{
     margin: 10px;
+} */
+
+#cartpage div{
+    padding: 20px;
+}
+
+#cartpage{
+    display: block;
+    width: 70%;
+}
+
+.maindiv{
+   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+    display: flex;
+    position: relative;
+}
+#other{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 139, 0.516);
+    width: 40%;
+}
+.maindiv2{
+    margin: 30px;
+}
+.maindiv2 label{
+    padding-bottom: 20px;
+}
+
+#cartpage h3{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+#cartpage img{
+    width: 200px;
+    height: 200px;
+}
+
+#cartpage button{
+    padding: 5px 10px;
+}
+#cartpage span{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+#price{
+    margin: 30px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.apply{
+    margin: 10px;
+    padding: 5px 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+.promocode{
+    padding: 5px 30px;
+
+}
+label {
+    padding-right: 10px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.price1{
+    font-size: 20px;
+    position: absolute;
+    right : -30px;
+}
+.code{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+
+.plusminse{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+
+section{
+    display: flex;
+}
+
+.disprice{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
 }
